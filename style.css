@@ -1,0 +1,601 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+h1, h2, h3, h4, h5, h5, p{
+    margin: 0;
+    padding: 0;
+}
+
+/* ============================================
+ header area
+ ============================================ */
+.header_area {
+    background: url(img/header-bg.jpg);
+    width: 100%;
+    height: 660px;
+}
+.logo {
+    width: 500px;
+    padding-left: 65px;
+    padding-top: 30px;
+}
+.logo img {
+    width: 200px;
+}
+.menu_section {
+    display: flex;
+    border-bottom: 1px solid #636363;
+}
+.menubar ul li {
+    float: left;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 50px 18px 45px 18px;
+    font-size: 15px;
+    border-bottom: 2px solid transparent;
+}
+.menubar ul li:hover {
+    background: rgba(158, 158, 158, 0.2);
+    color: #fff;
+    border-bottom: 2px solid #2ECC71;
+}
+.header_text {
+    text-align: center;
+    margin-top: 110px;
+}
+.header_text p {
+    color: #fff;
+    text-transform: uppercase;
+    margin: auto;
+    position: relative;
+}
+.header_text p::before {
+    background: transparent;
+    content: "";
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 3px;
+    left: 468px;
+    border: 2px solid #2ECC71;
+}
+.header_text p::after {
+    background: transparent;
+    content: "";
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 3px;
+    right: 468px;
+    border: 2px solid #2ECC71;
+}
+.header_text h1 {
+    color: #fff;
+    font-size: 65px;
+    line-height: 75px;
+    margin: 15px 0;
+}
+.btn_area {
+    margin-top: 55px;
+}
+.btn_area a {
+    background: #2ECC71;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 13px 25px;
+    margin: 0 5px;
+    border: 1px solid #2ECC71;
+}
+.btn_area a:hover {
+    background: transparent;
+}
+a.btn_q {
+    border: 1px solid #fff;
+    background: transparent;
+}
+a.btn_q:hover {
+    background: #fff;
+    color: #2ECC71;
+}
+
+
+/* ============================================
+ about area
+ ============================================ */
+ section.about_area {
+    display: flex;
+    margin: auto;
+    width: 1165px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: 130px;
+}
+.about_text {
+    width: 40%;
+    margin-top: 85px;
+}
+.about_text h4 {
+    text-transform: uppercase;
+    margin: 0;
+    margin-left: 30px;
+    position: relative;
+}
+.about_text h4::before {
+    background: transparent;
+    content: "";
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 4px;
+    left: -28px;
+    border: 2px solid #2ECC71;
+}
+.about_text h1 {
+    font-size: 45px;
+    margin: 5px 0;
+    line-height: 55px;
+}
+.about_text p {
+    font-size: 19px;
+}
+.ai_style {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background: #2ECC71;
+    top: -15px;
+    left: -15px;
+}
+.aistyle_2 {
+    top: 460px;
+    left: 460px;
+}
+.about_img {
+    margin-left: 70px;
+    position: relative;
+}
+.about_img:hover .ai_style{
+    background: #000;
+}
+
+
+/* ============================================
+ service area
+ ============================================ */
+.service_area {
+    background: #2ECC71;
+    padding: 55px 50px;
+}
+.service_heading {
+    text-align: center;
+    display: block;
+    margin-bottom: 30px;
+}
+.service_heading h4 {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 20px;
+    position: relative;
+}
+.service_heading h4::before {
+    position: absolute;
+    content: "";
+    width: 10px;
+    height: 10px;
+    background: transparent;
+    border: 2px solid #000;
+    top: 7px;
+    left: 530px;
+}
+.service_heading h4::after {
+    position: absolute;
+    content: "";
+    width: 10px;
+    height: 10px;
+    background: transparent;
+    border: 2px solid #000;
+    top: 7px;
+    right: 530px;
+}
+.services_details {
+    display: flex;
+    margin: auto;
+}
+.single_service {
+    text-align: center;
+    background: #1b1b1b;
+    padding: 30px;
+    margin: 20px 20px;
+}
+.single_service:hover {
+    background: transparent;
+}
+.single_service img {
+    width: 45px;
+    margin-bottom: 15px;
+}
+.single_service h2 {
+    color: #fff;
+    margin-bottom: 15px;
+}
+.single_service p {
+    color: #fff;
+}
+.ss_extra {
+    padding-top: 55px;
+}
+
+
+/* ============================================
+ portfolio area
+ ============================================ */
+.portfolio_area {
+    padding: 65px 50px;
+}
+.portfolio_heading {
+    text-align: center;
+    display: block;
+    margin-bottom: 30px;
+}
+.portfolio_heading h4 {
+    text-transform: uppercase;
+    color: #000;
+    font-size: 20px;
+    position: relative;
+}
+.portfolio_heading h4::before {
+    position: absolute;
+    content: "";
+    width: 10px;
+    height: 10px;
+    background: transparent;
+    border: 2px solid #2ECC71;
+    top: 7px;
+    left: 515px;
+}
+.portfolio_heading h4::after {
+    position: absolute;
+    content: "";
+    width: 10px;
+    height: 10px;
+    background: transparent;
+    border: 2px solid #2ECC71;
+    top: 7px;
+    right: 515px;
+}
+.portfolio_details {
+    display: flex;
+    margin: auto;
+    margin-left: 22px;
+}
+.single_portfolio {
+    display: inherit;
+}
+
+
+/* ============================================
+ team area
+ ============================================ */
+.team_area {
+    padding: 65px 50px;
+    text-align: center;
+    background: #181818;
+}
+.team_heading {
+    text-align: center;
+    display: block;
+    margin-bottom: 30px;
+}
+.team_heading h4 {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 20px;
+    position: relative;
+}
+.team_heading h4::before {
+    position: absolute;
+    content: "";
+    width: 10px;
+    height: 10px;
+    background: transparent;
+    border: 2px solid #2ECC71;
+    top: 7px;
+    left: 540px;
+}
+.team_heading h4::after {
+    position: absolute;
+    content: "";
+    width: 10px;
+    height: 10px;
+    background: transparent;
+    border: 2px solid #2ECC71;
+    top: 7px;
+    right: 540px;
+}
+.team_details{
+    display: flex;
+    margin: auto;
+}
+.single_team {
+    margin: 20px;
+}
+.team_content {
+    background: #2ECC71;
+    border: 5px solid #2ECC71;
+    padding: 25px;
+    margin-top: -5px;
+}
+.team_content h2 {
+    text-transform: uppercase;
+    color: #fff;
+}
+.team_content p {
+    color: #fff;
+}
+.single_team:hover .team_content{
+    background: #fff;
+}
+.single_team:hover .team_content h2{
+    color: #2ECC71;
+}
+.single_team:hover .team_content p{
+    color: #2ECC71;
+}
+
+
+/* ============================================
+ box area
+ ============================================ */
+ .box_area {
+    background: #c8eed8;
+    display: flex;
+    margin: auto;
+    text-align: center;
+}
+.single_box {
+    background: #2ECC71;
+    padding: 120px 85px;
+}
+.sb_1{
+    background: #158342;
+}
+.sb_2{
+    background: #1da054;
+}
+.sb_3{
+    background: #28bd66;
+}
+.sb_4{
+    background: #35db7a;
+}
+.single_box img {
+    width: 55px;
+    margin-bottom: 10px;
+}
+.single_box h1 {
+    color: #fff;
+    font-weight: 300;
+}
+
+
+/* ============================================
+ blog area
+ ============================================ */
+ .blog_area {
+    display: flex;
+    padding-left: 140px;
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+ .single_blog{
+     width: 350px;
+ }
+ .blog_content {
+    background: #2ECC71;
+    padding: 65px;
+    margin-top: -5px;
+}
+.blog_content:hover {
+    background: rgb(34, 34, 34);
+}
+.bc_m {
+    margin: 0;
+}
+.blog_content h2 {
+    color: #fff;
+    font-size: 19px;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+.blog_content p {
+    color: #fff;
+    font-size: 14px;
+}
+
+
+/* ============================================
+ footer area
+ ============================================ */
+ .footer_top {
+    background: #000;
+    display: flex;
+    padding: 100px 0;
+    padding-left: 70px;
+}
+.single_fbox {
+    width: 295px;
+    margin: 0 20px;
+}
+.sfb_img {
+    margin-bottom: 20px;
+}
+.single_fbox p {
+    color: #727272;
+    margin-bottom: 10px;
+    font-size: 13px;
+    line-height: 25px;
+}
+.single_fbox h3 {
+    color: #fff;
+    margin-bottom: 25px;
+}
+.f_list ul li {
+    color: #727272;
+    margin-bottom: 20px;
+    font-size: 13px;
+}
+.footer_icon {
+    margin-top: 20px;
+}
+.footer_icon ul li {
+    float: left;
+    margin-right: 15px;
+}
+.footer_bottom {
+    text-align: center;
+    background: #000;
+    padding: 30px;
+    border-top: 1px solid #727272;
+}
+.footer_bottom p {
+    color: #727272;
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*================================================================
+============================about page============================
+==================================================================*/
+.ha_height {
+    height: 310px !important;
+}
+.ht_about {
+    margin-top: 50px;
+}
+
+
+
+/*================================================================
+============================team page============================
+==================================================================*/
+.member_details {
+    background: #000;
+    padding: 55px;
+    margin-top: 25px;
+}
+.member_details p {
+    color: #ddd;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+
+/*================================================================
+============================blog page============================
+==================================================================*/
+.ba_mt0 {
+    margin-top: -95px;
+}
+
+
+/*================================================================
+============================contact page============================
+==================================================================*/
+.contact_area {
+    background: #f5f5f5;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.contact_header {
+    width: 770px;
+    margin-bottom: 40px;
+}
+.contact_form_area {
+    width: 770px;
+    background: #fff;
+    padding: 35px;
+}
+.contact_header h1 {
+    color: #000;
+    font-size: 28px;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.contact_header p {
+    font-size: 14px;
+    line-height: 23px;
+    color: #727272;
+    font-weight: 400;
+}
+.contact_form_area form {
+    width: 750px;
+}
+.contact_form_area input {
+    border: 1px solid #efefef;
+    background: #fff;
+    color: #929292;
+    width: 100%;
+    height: 42px;
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+.contact_form_area input:hover {
+    border: 1px solid #2ECC71;
+}
+.contact_form_area input:focus {
+    outline: none;
+    border: 1px solid #2ECC71;
+}
+input.submit_style {
+    background: #2ECC71;
+    border: 1px solid #2ECC71;
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 0;
+    width: 765px;
+    margin-bottom: 0;
+}
+input.submit_style:hover {
+    background: #000;
+    border: 1px solid #000;
+    color: #fff;
+}
+.address_area {
+    background: #2ECC71;
+    width: 790px;
+    padding: 25px;
+    color: #fff;
+    margin-top: 30px;
+}
